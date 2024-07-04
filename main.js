@@ -10,9 +10,6 @@ class Vector2 {
 class Figure {
 
     Position = new Vector2(0, 0)
-    //X = 0 // +Right, -Left
-    //Y = 0 // +down, -up
-
 
     constructor() {
         const htmlfigure = document.createElement("span")
