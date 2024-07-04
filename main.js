@@ -14,7 +14,7 @@ class Figure {
     //Y = 0 // +down, -up
 
 
-    constructor(name) {
+    constructor() {
         const htmlfigure = document.createElement("span")
         document.body.appendChild(htmlfigure)
         this.figureref = htmlfigure
@@ -33,12 +33,12 @@ class Figure {
     
 }
 
-const figure1 = new Figure("yo1")
-const figure2 = new Figure("yo2")
-const figure3 = new Figure("yo3")
-const figure4 = new Figure("yo4")
-const figure5 = new Figure("yo5")
-const figure6 = new Figure("yo6")
+const figure1 = new Figure()
+const figure2 = new Figure()
+const figure3 = new Figure()
+const figure4 = new Figure()
+const figure5 = new Figure()
+const figure6 = new Figure()
 
 toRotate = [figure1, figure2, figure3, figure4, figure5, figure6]
 
